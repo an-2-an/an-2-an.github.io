@@ -1,0 +1,43 @@
+body {
+	font-size: 130%;
+}
+
+h2 {
+	color: green;
+	text-transform: uppercase;
+}
+
+.container {
+	margin: 20px;
+	padding: 20px;
+	padding-left: 40px;
+	width: 800px;
+	background: none;
+	border: 5px black double;
+	border-radius: 10px;
+	
+}
+
+.container p {
+	position: relative;
+}
+
+.container p::before {
+	content: "";
+	position: absolute;
+	left: -10px;
+	top: 10px;
+	width: 5px;
+	height: 5px;
+	background: green;
+}
+
+.container a {
+	text-decoration: none;
+	color: black;
+}
+
+.container a:hover {
+	color: red;
+}
+
