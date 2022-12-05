@@ -1,0 +1,78 @@
+body {
+    background: url(../img/wp.jpg);
+    background-size: 100%;
+}
+
+div {
+    border: 0px dashed green;
+    min-height: 0px;
+}
+
+.nav {
+    width: 1200px;
+    margin: 30px auto;
+    /* margin-bottom: 60px; */
+}
+
+.nav > a {
+    display: inline-block;
+    margin: 10px;
+    font-size: 140%;
+    text-decoration: none;
+    padding: 10px;
+    color: blue;
+}
+
+.nav > a:hover {
+    box-shadow: 0px 0px 10px cyan;
+    color: cyan;
+    background-color: blue;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    border: 2px solid grey;
+    box-shadow: 0px 0px 10px cyan;
+}
+
+.left, .right {
+    height: 400px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px;
+    vertical-align: top;
+}
+
+.left {
+    width: 400px;
+}
+
+.left > img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.right {
+    width: 790px;
+    font-size: 140%;
+}
+
+.right > p {
+    text-align: justify;
+}
+
+.frame-preview {
+    width: 570px;
+    height: 340px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.container > iframe {
+    width: 1150px;
+    height: 700px;
+    margin: 20px;
+}
