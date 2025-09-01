@@ -1,0 +1,14 @@
+body {
+    background-color: lavender;
+}
+
+.title {
+    font-size: 120%;
+    font-style: italic;
+    color: green;
+}
+
+img.thumb {
+    width: 70px;
+    margin: 10px;
+}

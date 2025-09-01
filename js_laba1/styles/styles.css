@@ -1,0 +1,27 @@
+h1 {
+	text-align:center;
+	color:red;
+}
+
+p {
+	font-size: 120%;
+	text-align: justify;
+}
+
+ol {
+	font-size: 120%;
+}
+
+table {
+	border-width: medium;
+	font-size: 120%;
+}
+
+#cntr {
+	text-align:center;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}

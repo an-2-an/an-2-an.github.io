@@ -1,0 +1,13 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+}
+
+.cool-body {
+    background-color: azure;
+}
+
+.main-title {
+    color: darkgreen;
+    text-align: center;
+}

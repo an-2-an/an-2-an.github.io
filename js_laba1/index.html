@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Лабораторная работа 1 по теме JavaScript</title>
+		<link href="styles/styles.css" rel="stylesheet" type="text/css">
+		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+	</head>
+    <body>
+		<table>
+			<tr>
+				<td width="50%"></td>
+				<td width="50%"><i>Под поверхностью машины движется программа. Без 
+				усилий, она расширяется и сжимается. Находясь в
+				великой гармонии, электроны рассеиваются и
+				собираются. Формы на мониторе – лишь рябь на воде.
+				Суть остаётся скрытой внутри…<br>
+				<b>Мастер Юан-Ма, "Книга программирования"</b></i>
+				</td>
+			</tr>
+		</table>
+        <h1>Линейные и разветвляющиеся алгоритмы JavaScript</h1>
+		<h2>Часть 1. Линейные алгоритмы</h2>
+		<p><b>Пример.</b> По заданному значению аргумента x вычислить значение функции y(x)</p>
+		<img src="images/formula1.PNG">
+		<p>и найти среднее арифметическое значений x и y(x)</p>
+		<img src="images/formula2.PNG">
+		<p><b>Решение</b></p>
+		<p>В текстовом редакторе (рекомендуется Notepad++) создадим файл <b>laba1_1.html</b> и ввести следующий код:</p>
+		<img src="images/script01.png">
+		<p>После сохранения будет создана пустая веб-страница с заголовком "LABA #1 part 1", в чем
+		 можно убедиться, открыв файл в любом интернет-браузере. В дальнейшем, чтобы просмотреть
+		 изменения после редактирования кода, нужно будет либo открыть файл в браузере, либо обновить его.</p>
+		<p>Далее дополним код страницы между тегами <font color="blue">&lt;script&gt;</font>
+		и <font color="blue">&lt;/script&gt;</font> : </p>
+		<img src="images/script02.png">
+		<p id="comment1"></p>
+		<button id="btn1">показать комментарий к коду</button>
+		<button id="btn_prompt">демонстрация функции prompt</button>
+		<p>Результат работы:</p>
+		<img src="images/work01.png"><br>
+		<img src="images/work02.png">
+		<p>Полный текст кода страницы:</p>
+		<img src="images/script03.png">
+		<h2>Часть 2. Разветвляющиеся алгоритмы</h2>
+		<p><b>Пример.</b> Функциональная зависимость y(x) задана на рисунке:</p>
+		<img src="images/grafik1.png">
+		<p>Необходимо
+		<ol>для заданного значения х рассчитать значение у(х);</ol>
+		<ol>либо для заданной точки координатной плоскости А(х<sub>1</sub>,у<sub>1</sub>)
+		определить ее положение по отношению к графику у(х)</ol></p>
+		<p><b>Решение</b></p>
+		<p>Поскольку нам неизвестны границы интервалов t<sub>1</sub> и t<sub>2</sub>, то следует их найти.</p>
+		<p>t<sub>1</sub> будет отрицательным решением уравнения</p>
+		<img src="images/formula3.png">
+		<p>(отрицательным - потому что слева от начала координат, вид уравнения определяется пересечением графиков у=0 и у=-х<sup>2</sup>+2)</p>
+		<p>откуда следует, что</p>
+		<img src="images/formula4.png">
+		<p>t<sub>2</sub> будет положительным решением уравнения</p>
+		<img src="images/formula5.png">
+		<p>откуда следует, что</p>
+		<img src="images/formula6.png">
+		<p>Таким образом, нашу зависимость можно представить аналитически:</p>
+		<img src="images/formula7.png"><br>
+		<p>Создадим файл <b>laba1_2.html</b> и подготовим шаблон, как в предыдущем задании, изменив заголовок на "LABA #1 part 2".</p>
+		<p>Введем код между тегами <font color="blue">&lt;script&gt;</font>
+		и <font color="blue">&lt;/script&gt;</font> : </p>
+		<img src="images/script04.png">
+		<p id="comment2"></p>
+		<button id="btn2">показать комментарий к коду</button>
+		<p>Продолжаем вводить код:</p>
+		<img src="images/script05.png">
+		<p id="comment3"></p>
+		<button id="btn3">показать комментарий к коду</button>
+		<p></p>
+		<img src="images/script06.png">
+		<p id="comment4"></p>
+		<button id="btn4">показать комментарий к коду</button>
+		<p></p>
+		<img src="images/script07.png">
+		<p id="comment5"></p>
+		<button id="btn5">показать комментарий к коду</button>
+		<button id="btn_confirm">демонстрация функции confirm</button>
+		<p></p>
+		<p>Результаты работы:</p>
+		<img src="images/work03.png"><br>
+		<img src="images/work04.png"><br>
+		<img src="images/work05.png"><br><br>
+		<img src="images/work06.png"><br>
+		<img src="images/work07.png"><br>
+		<img src="images/work08.png"><br>
+		<img src="images/work09.png"><br>
+		<p>Как мы видим, в математических расчетах имеются незначительные погрешности, возникающие вследствие ошибок округления в числах
+		с плавающей точкой. Почему это происходит,  изложено, например, <a href="https://habrahabr.ru/post/112953/">здесь</a>.</p> 
+		<p>Полный текст кода страницы:</p>
+		<img src="images/script08.png"><br>
+		<img src="images/script09.png"><br>
+		
+		
+		<h2>Бонусы</h2>
+		<p>Образец титульного листа отчета в формате doc: <a href="docs/titul.doc" download>download</a>.</p>
+		<p>Варианты индивидуальных заданий в формате pdf: <a href="docs/individual_1.pdf" download>download</a>.</p>
+		<p><a href="add-ons/math.html">Основные математические функции JavaScript</a></p>
+		
+		<script src="scripts/main.js"></script>
+    </body>
+</html>

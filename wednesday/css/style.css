@@ -1,0 +1,106 @@
+/* html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+} */
+
+body {
+    background-color: #000;
+    font-size: 250%;
+}
+
+div {
+    border: 0 solid green;
+}
+
+.container {
+    width: 1200px;
+    min-height: 100px;
+    margin: 50px auto;
+    background-color: DimGrey;
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+.nav,
+.footer {
+    width: 1100px;
+    min-height: 60px;
+    background-color: #000;
+    margin: 50px 0 0 50px;
+}
+
+.nav > a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: GhostWhite;
+}
+
+.nav > a:hover {
+    color: #000;
+    background-color: GhostWhite;
+}
+
+.left,
+.right {
+    height: 410px;
+    /* background-color: aqua; */
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+    vertical-align: top;
+}
+
+.left {
+    width: 300px;
+    background: url('../img/main_preview.jpg');
+    background-size: 100%;
+}
+
+.right {
+    width: 740px;
+    background-color: #000;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.right > p {
+    color: ghostwhite;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer > h4 {
+    color: ghostwhite;
+    text-align: center;
+    margin: 0;
+}
+
+.container > a {
+    text-decoration: none;
+}
+
+img.preview {
+    width: 518px;
+    height: 330px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 0px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.container > iframe {
+    display: block;
+    width: 1100px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
